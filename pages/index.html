@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyCompany</title>
+
+  <link rel="stylesheet" href="C:\TICL-Project\css\styles.css">
+</head>
+
+<body>
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay">
+  </div>
+
+  <!-- HEADER -->
+  <header id="header">
+
+    <a href="#" class="logo">My<span>Co.</span></a>
+
+    <!-- NAV (MOVE THIS UP) -->
+    <nav id="nav">
+      <a href="C:\TICL-Project\pages\index.html" class="active">Home</a>
+      <a href="C:\TICL-Project\pages\about.html">About</a>
+      <a href="C:\TICL-Project\pages\services.html">Services</a>
+      <a href="C:\TICL-Project\pages\contact.html">Contact</a>
+    </nav>
+
+    <!-- SEARCH -->
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search anything…" class="search-input">
+      <span class="search-icon">🔍</span>
+    </div>
+
+    <!-- RIGHT SIDE CONTROLS -->
+    <div class="header-controls">
+      <button class="icon-btn" id="darkToggle" title="Toggle dark mode">🌙</button>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section class="hero reveal">
+    <div class="hero-text">
+      <div class="hero-badge">✦ Trusted by 2,000+ businesses</div>
+      <h1>We Build<br><em>Modern</em><br>Solutions</h1>
+      <p>Helping businesses grow with technology that scales. Fast, reliable, and built to last.</p>
+      <div class="hero-actions">
+        <button class="btn-primary">Get Started →</button>
+        <button class="btn-outline">See our work</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-illustration">🚀</div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar reveal">
+    <div class="stats-inner">
+      <div class="stat">
+        <div class="stat-num">250+</div>
+        <div class="stat-label">Projects delivered</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Client satisfaction</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">12yr</div>
+        <div class="stat-label">In the industry</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">40+</div>
+        <div class="stat-label">Team members</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="section">
+    <div class="section-label">What we do</div>
+    <div class="section-title">Our Services</div>
+    <p class="section-sub">End-to-end solutions designed to take your business further.</p>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="card-icon">🌐</div>
+        <h3>Web Development</h3>
+        <p>Performant, accessible websites and web apps built with modern standards and your users in mind.</p>
+      </div>
+      <div class="card reveal" style="transition-delay:0.1s">
+        <div class="card-icon">📱</div>
+        <h3>Mobile Apps</h3>
+        <p>Native and cross-platform mobile applications that feel polished on every device.</p>
+      </div>
+      <div class="card reveal" style="transition-delay:0.2s">
+        <div class="card-icon">☁️</div>
+        <h3>Cloud Solutions</h3>
+        <p>Scalable infrastructure and DevOps pipelines that grow as fast as your business does.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section"
+    style="background: var(--surface); max-width:100%; border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="contact-wrap" style="max-width:1200px; margin:0 auto;">
+      <div class="contact-info reveal">
+        <div class="section-label">Get in touch</div>
+        <h2>Let's build something together</h2>
+        <p>Have a project in mind? We'd love to hear about it. Drop us a message and we'll get back to you within 24
+          hours.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📧</div>
+          <div class="contact-detail-text">
+            <div class="label">Email</div>
+            <div class="value">hello@mycompany.com</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">📍</div>
+          <div class="contact-detail-text">
+            <div class="label">Location</div>
+            <div class="value">San Francisco, CA</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" style="transition-delay:0.15s">
+        <div class="form-group">
+          <label>Your name</label>
+          <input type="text" placeholder="Jane Smith">
+        </div>
+        <div class="form-group">
+          <label>Email address</label>
+          <input type="email" placeholder="jane@example.com">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell us about your project…"></textarea>
+        </div>
+        <button class="btn-primary" style="width:100%; justify-content:center;">Send message →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <a href="#" class="logo" style="font-size:17px;">My<span>Co.</span></a>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+      <p class="footer-copy">© 2026 MyCompany. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="C:\TICL-Project\jsScripts\darkMode.js"></script>
+  <script src="C:\TICL-Project\jsScripts\search.js"></script>
+</body>
+
+</html>
