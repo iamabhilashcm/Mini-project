@@ -15,25 +15,35 @@
   <div class="overlay" id="overlay"></div>
 
   <!-- HEADER -->
-  <header>
+  <header id="header">
 
     <a href="index.html" class="logo">My<span>Co.</span></a>
 
-    <!-- HAMBURGER -->
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
 
     <!-- NAV -->
     <nav id="nav">
-      <a href="index.html">Home</a>
-      <a href="pages/about.html" class="active">About</a>
-      <a href="pages/services.html">Services</a>
-      <a href="pages/contact.html">Contact</a>
+      <a href="../index.html">Home</a>
+      <a href="../pages/about.html" class="active">About</a>
+      <a href="../pages/services.html">Services</a>
+      <a href="../pages/contact.html">Contact</a>
     </nav>
 
-    <!-- DARK MODE -->
-    <button id="darkToggle" class="icon-btn">🌙</button>
+
+    <!-- SEARCH -->
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search anything…" class="search-input">
+      <span class="search-icon">🔍</span>
+    </div>
+
+    <!-- RIGHT SIDE CONTROLS -->
+    <div class="header-controls">
+      <button class="icon-btn" id="darkToggle" title="Toggle dark mode">🌙</button>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
 
   </header>
 
@@ -82,8 +92,9 @@
   </footer>
 
   <!-- SCRIPTS -->
-  <script src="jsScripts\darkMode.js"></script>
-  <script src="jsScripts\search.js"></script>
+  <script src="jsScripts/darkMode.js"></script>
+  <script src="jsScripts/search.js"></script>
+
 
 </body>
 
